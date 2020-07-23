@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
 
     $('#h1').text('Animacion de dia y noche');
     $('.slider_option').hide();
-    $('.divmenu #ulmenu #limenu').css({ padding: limenupadding });
+    $('.divmenu #ulmenu li').css({ padding: limenupadding });
     $('#slider').css({ width: slideWidth, height: slideHeight });
     $('#slider #ul').css({ width: slideWidth,  height: slideHeight });
     $('#slider #ul li').css({ width: slideWidth, height: slideHeight });
