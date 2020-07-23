@@ -36,7 +36,7 @@ h1 {
   width: auto;
   height: auto;
 }
-.divmenu #ulmenu #limenu{
+.divmenu #ulmenu li{
   margin: 0;
   padding: 8.3%;
   position: relative;
@@ -46,11 +46,11 @@ h1 {
   text-align: center;
   transition: all 0.2s ease
 }
-.divmenu #ulmenu #limenu:hover{
+.divmenu #ulmenu li:hover{
   opacity: 1;
   transition: all 0.2s ease;
 }
-.divmenu #ulmenu #limenu a{
+.divmenu #ulmenu li a{
   margin:0;
   color: #fff;
   width: 100%;
